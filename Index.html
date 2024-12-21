@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+    <!-- Log in page -->
+
+    <div id="login" class="container mt-5 d-flex justify-content-center d-none">
+        <div class="col-md-4 col-lg-6 m-auto">
+            <div class="card d-flex justify-content-center flex-column align-items-center px-3 shadow w-100 px-5">
+                <h1 class="mt-4 mb-4">Smart Login System</h1>
+                <form class="form" id="form">
+                    <span class="input-span">
+                        <input type="email" name="email" id="loginEmail" placeholder="Enter your Email"/>
+                    </span>
+                    <span class="input-span">
+                        <input type="password" name="password" id="loginPassword" placeholder="Enter your Password"/>
+                    </span>
+                    <p class="msg text-danger d-none">All inputs are required</p>
+                        <input type="submit" class="submit text-center d-flex flex-column align-items-center w-100 rounded-3">
+                      <span class="span mb-3 mt-3">Don't have an account? <a href="#">Sign up</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign up page -->
+
+    <div id="signup" class="container">
+        <div class="col-md-4 col-lg-6 m-auto">
+            <div class="card d-flex justify-content-center flex-column align-items-center px-3 shadow w-100 px-5">
+                <h1 class="mt-4 mb-4">Smart Login System</h1>
+                <form class="form">
+                    <span class="input-span">
+                        <input type="text" name="name" id="signupName" placeholder="Enter your Name"/>
+                    </span>
+                    <span class="input-span">
+                        <input type="email" name="email" id="signupEmail" placeholder="Enter your Email"/>
+                    </span>
+                    <span class="input-span">
+                        <input type="password" name="password" id="signupPassword" placeholder="Enter your Password"/></span>
+                        <input type="submit" class="submit text-center d-flex flex-column align-items-center w-100 rounded-3" id="submit">Sign Up</input>
+                      <span class="span mb-3 mt-3">You have an account? <a href="#">Sign in</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home page -->
+
+<header id="home">
+    <nav class="navbar navbar-expand-lg shadow-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <button type="button" class="text-secondary btn btn-outline-warning">Logout</button>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="col-md-4 col-lg-6 m-auto mt-5">
+         <div class="card d-flex justify-content-center flex-column align-items-center px-3 shadow w-100 px-5 mt-5">
+            <h2 class="display-3" style="color: rgb(22, 162, 184);font-family: Titillium Web, sans-serif;">Welcome</h2>
+        </div>
+     </div>
+</header>
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/Index.js"></script>
+</body>
+</html>

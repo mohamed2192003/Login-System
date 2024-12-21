@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(36, 54, 64);
+}
+h1{
+    color: rgb(22, 162, 184);
+    font-family: "Titillium Web", sans-serif;
+}
+.card{
+    background-color: rgb(36, 54, 64);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    /* max-width: 300px; */
+  }
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgb(36, 54, 64);
+    outline: 2px solid;
+  }
+  
+  .form input[type="text"]:focus,
+  .form input[type="email"]:focus,
+  .form input[type="password"]:focus {
+    outline: 2px solid rgb(22, 162, 184);
+  }
+  
+  .label {
+    align-self: flex-start;
+    /* color: var(--clr); */
+    font-weight: 600;
+  }
+  
+  .form .submit {
+    padding: 1rem 0.75rem;
+    gap: 0.5rem;
+    background-color: rgb(36, 54, 64);
+    color: rgb(22, 162, 184);
+    border: 1px solid rgb(22, 162, 184);
+    cursor: pointer;
+    transition: all 300ms;
+  }
+  
+.form .submit:hover {
+    background-color: rgb(22, 162, 184);
+    color: white;
+}
+  
+  .span {
+    color: white !important;
+    }
+    
+.span a {
+    text-decoration: none;
+    color: white;
+}
+
+.span a:hover{
+    text-decoration: underline;
+}
+
+header .card{
+    padding: 5%;
+    margin-top: 40%;
+}
